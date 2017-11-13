@@ -5,7 +5,7 @@
 
 char ** parse_args( char * line ){
   char **ans;
-  ans = (char**) calloc(5, sizeof(char*));
+  ans = (char**) calloc(6, sizeof(char*));
   int i = 0;
 
   while (line && i<5){
